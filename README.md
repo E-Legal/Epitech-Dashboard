@@ -5,7 +5,7 @@ Nous utilisons aussi Docker ainsi que Docker-compose pour l'hébergement du Dash
 
 ## Prérequis
 
-Pour utiliser notre Dashboard vous devez installer au préalable avoir installé [NodeJS] et [MongoDB].
+Pour utiliser notre Dashboard vous devez installer au préalable avoir installé **NodeJS** et **MongoDB**.
 
 ## Lancer notre Dashboard
 
