@@ -25,8 +25,9 @@ Pour le test sans Docker:
 
 l'interface graphique s'occupera de la connexion.
 
-![Login](https://github.com/E-Legal/Babel/blob/master/img/2.png)
-![Home_page](https://github.com/E-Legal/Babel/blob/master/img/1.png)
+![Login](https://github.com/E-Legal/Dashboard/tree/master/img/2.jpg)
+![Register](https://github.com/E-Legal/Dashboard/tree/master/img/3.jpg)
+![Home_page](https://github.com/E-Legal/Dashboard/tree/master/img/1.jpg)
 
 ## Auteurs
 
