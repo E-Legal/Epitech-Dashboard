@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Epitech Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/info.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="/js/weather.js"></script>
+  <script src="/js/crypto.js"></script>
+  <script src="/js/bourse.js"></script>
+  <script src="/js/youtube.js"></script>
+  <script src="/js/steam.js"></script>
+  <script src="/js/listener.js"></script>
+</head>
+<body>
+    <div class="header clearfix">
+        <h3 class="title">Dashboard Epitech</h3>
+      <nav>
+        <ul class="nav nav-pills float-right">
+          {{#if user}}
+          <li class="nav-item">
+            <a class="btn-sec nav-link" href="/users/logout">Logout</a>
+          </li>
+          {{else}}
+          <li class="nav-item">
+            <a class="nav-link2" href="/users/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link2" href="/users/register">Register</a>
+          </li>
+          {{/if}}
+	  
+        </ul>
+      </nav>
+      
+    </div>
+    <div class="container">
+    <div class="row body">
+      <div class="col-lg-12">
+        {{#if success_msg}}
+        <div class="alert alert-success">{{success_msg}}</div>
+        {{/if}}
+	
+        {{#if error_msg}}
+        <div class="alert alert-danger">{{error_msg}}</div>
+        {{/if}}
+	
+        {{#if error}}
+        <div class="alert alert-danger">{{error}}</div>
+        {{/if}}
+        {{{body}}}
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+  <body>
+  <div class="container" style="margin-bottom: 20px;">
+      <div class="row">
+          <div class="col-lg-12">
+            <h2 class="page-header">Dashboard</h2>
+            <p>Welcome to your dashboard. {{user.username}}</p>
+              <button class="btn"onclick="Weatherwid()">Weather widget</button>
+              <button class="btn"onclick="Cryptowid()">Crypto widget</button>
+              <button class="btn"onclick="Stock_marketwid()">Stock market widget</button>
+              <button class="btn"onclick="Youtubewid()">YouTube widget</button>
+              <button class="btn"onclick="Steamgamewid()">Steam game widget</button>
+              <button class="btn"onclick="Steamuserwid()">Steam user widget</button>
+        </div>
+      </div>
+  </div>
+  <div id="WidgetArea">
+      <div id="WeatherArea" class="container_meteo" style="margin-bottom: 20px;">
+
+      </div>
+
+      <div id="CryptoArea" class="container_crypto" style="margin-bottom: 20px;">
+
+      </div>
+
+      <div id="BourseArea" class="boursecontainer" style="margin-bottom: 20px;">
+
+      </div>
+
+      <div id="YoutubeArea" class="ytcontainer" style="margin-bottom: 20px;">
+
+      </div>
+
+      <div id="SteamgameArea" class="steamcontainer" style="margin-bottom: 20px;">
+
+      </div>
+
+      <div id="SteamidArea" class="steamidcontainer" style="margin-bottom: 20px;">
+
+      </div>
+  </div>
+  </body>
+  <script src="/js/add_widget.js"></script>
+</html>

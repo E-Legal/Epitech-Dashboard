@@ -1,0 +1,118 @@
+
+body {
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+}
+
+.title{
+    padding-left: 30px;
+    color: white;
+}
+
+.nav-link2{
+    color: #636e72;
+    padding-right:.5rem;padding-left:.5rem
+}
+
+.nav-link2:hover{text-decoration:none;color:white;}
+
+.btn-sec{margin-right: 1rem;color:#fff;background-color:#007bff;border-color:#007bff;}
+.btn-sec:hover{color:#fff;background-color:#0069d9;border-color:#0062cc}
+
+.header, .body, .footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: .05rem solid #e5e5e5;
+}
+
+#WidgetArea {
+    margin-top: 20px;
+}
+
+#WidgetArea p {
+    margin-top: 30px;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+
+@media (min-width: 48em) {
+  .container {
+    max-width: 60em;
+  }
+}
+.container-narrow>hr {
+  margin: 2rem 0;
+}
+
+
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p+h4 {
+  margin-top: 1.5rem;
+}
+
+
+@media screen and (min-width: 48em) {
+  .header, .marketing, .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 2rem;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.header {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clearfix::after {
+  display: none !important;
+}
+footer {
+  margin-top: 40px;
+}
+button {
+  cursor: pointer;
+}
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
+  border: 1px solid #007bff;
+  color: #007bff;
+  background: none;
+}

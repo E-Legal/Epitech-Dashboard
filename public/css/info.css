@@ -1,0 +1,51 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*, ::after, ::before {
+
+    box-sizing: content-box !important;
+
+}
+
+.isa_info, .isa_success, .isa_warning, .isa_error, .isa_error_crypto, .isa_success_crypto {
+    margin: 10px 0px;
+    padding:12px;
+    display: none;
+}
+
+#WeatherArea, #CryptoArea, #BourseArea, #YoutubeArea, #SteamgameArea {
+    display: none;
+}
+
+.loading {
+    display: none;
+}
+
+hr {
+    border: 0;
+    width: 80%;
+    color: #f00;
+    background-color: #f00;
+    height: 5px;
+}
+
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success, .isa_success_crypto {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error, .isa_error_crypto{
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i, .isa_error_crypto i, .isa_success_crypto {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
